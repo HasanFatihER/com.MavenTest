@@ -59,8 +59,8 @@ public class AssertionTest {
 
 
 
-  /*  @AfterClass
+    @AfterClass
     public static void tearDown(){
 
-    } */
+    } 
 }
