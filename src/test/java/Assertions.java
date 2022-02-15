@@ -18,7 +18,8 @@ import java.time.Duration;
 
 public class Assertions {
     static WebDriver driver;
-
+ /* Junit Test sıralamasını kendi belirler. Çalışma sırası önemli olan projelerde farklı
+ * bir framework kullanmakta fayda olabilir.*/
     @BeforeClass
     public static void setup() {
         WebDriverManager.chromedriver().setup();
